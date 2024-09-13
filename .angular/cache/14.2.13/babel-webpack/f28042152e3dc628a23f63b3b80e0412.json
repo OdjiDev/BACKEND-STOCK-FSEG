@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { DepartementDto } from 'src/app/classes/departement-dto';\nexport class BureauDto {\n  constructor() {\n    this.id = 0;\n    this.nom = \"\";\n    this.departementDto = new DepartementDto(); //personelsDto: PersonelDto[]=[];\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

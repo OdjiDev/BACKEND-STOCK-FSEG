@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { ProduitDto } from \"./produit-dto\";\nexport class AvarieDto {\n  constructor() {\n    this.id = 0;\n    this.quantite = \"\";\n    this.nom = \"\";\n    this.date = \"\";\n    this.motif = \"\";\n    this.produitDto = new ProduitDto();\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
