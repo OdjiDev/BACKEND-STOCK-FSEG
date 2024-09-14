@@ -12,7 +12,7 @@ import { AdminDashboardComponent } from './modules/admin/components/admin-dashbo
 
 
 const routes: Routes = [
-  { path: '', component: LoginComponent }, // Default route displays LoginComponent
+  { path: '', component: ProduitComponent }, // Default route displays LoginComponent
   {
     path: 'admin',
     loadChildren: () =>
