@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class MagasinDto {\n  constructor() {\n    /** Identifiant unique du magasin */\n    this.id = 0;\n    /** Nom du magasin */\n\n    this.nom = \"\";\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

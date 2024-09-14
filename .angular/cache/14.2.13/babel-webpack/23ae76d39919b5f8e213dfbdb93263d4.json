@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class DepartementDto {\n  constructor() {\n    this.id = 0;\n    this.code = \"\";\n    this.nom = \"\";\n    this.createdAt = \"\";\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

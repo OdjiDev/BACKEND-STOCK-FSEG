@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class CategorieDto {\n  constructor() {\n    this.code = \"\";\n    this.nomcategorie = \"\";\n    this.designation = \"\"; // Add other properties as needed\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
