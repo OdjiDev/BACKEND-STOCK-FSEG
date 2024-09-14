@@ -8,11 +8,12 @@ import { HomeComponent } from './modules/admin/components/home/home.component';
 import { LoginComponent } from './login/login.component';
 import { InscrireComponent } from './login/inscrire/inscrire.component';
 import { AdminDashboardComponent } from './modules/admin/components/admin-dashboard/admin-dashboard.component';
+import { SideBarComponent } from './modules/admin/components/side-bar/side-bar.component';
 
 
 
 const routes: Routes = [
-  { path: '', component: LoginComponent }, // Default route displays LoginComponent
+  { path: '', component: SideBarComponent }, // Default route displays LoginComponent
   {
     path: 'admin',
     loadChildren: () =>
